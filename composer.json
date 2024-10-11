@@ -1,0 +1,23 @@
+{
+    "name": "anatoly/php-laravel-01",
+    "description": "Домашнее задание по Composer",
+    "type": "project",
+    "require": {
+    },
+    "require-dev": {
+        "psr/log": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Anatoly\\PhpLaravel01\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anatoly Batov",
+            "email": "play.hoffa@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
